@@ -1,0 +1,57 @@
+.navbar {
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  width: 100%;
+  min-height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  position: sticky;
+  top: 0;
+  margin-bottom: 1rem;
+  z-index: 999;
+}
+.navbar__container-logo {
+  width: 40%;
+  text-align: left;
+}
+.navbar__logo {
+  color: #000;
+  display: inline-block;
+  font-weight: bold;
+  padding-right: 0.3rem;
+  font-size: 1.2rem;
+}
+.navbar__logo:hover {
+  cursor: pointer;
+}
+.navbar__container-info {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar__user-icon {
+  font-size: 1.8rem;
+}
+.navbar__user-icon:hover {
+  cursor: pointer;
+}
+.navbar__cart-container {
+  display: flex;
+  align-items: center;
+}
+.navbar__cart-container:hover {
+  cursor: pointer;
+}
+.navbar__cart-icon {
+  font-size: 1.8rem;
+  margin: 0 0.1rem 0 0.8rem;
+}
+.navbar__counter-cart {
+  background-color: red;
+  color: #fff;
+  border-radius: 0.3rem;
+  padding: 0 0.3rem;
+}
