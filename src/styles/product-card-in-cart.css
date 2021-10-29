@@ -1,0 +1,110 @@
+.product-card-in-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  margin: 0.5rem auto;
+}
+.product-card-in-cart__container-img {
+  width: 100%;
+}
+.product-card-in-cart {
+  padding: 0.5rem;
+}
+.product-card-in-cart__img {
+  width: 100%;
+}
+.product-card-in-cart__details-product {
+  width: 100%;
+}
+.product-card-in-cart__container-details-product {
+  width: 100%;
+}
+.product-card-in-cart__container-price,
+.product-card-in-cart__container-quantity,
+.product-card-in-cart__container-total {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 0.5rem 0;
+}
+.product-card-in-cart__container-quantity {
+  align-items: center;
+}
+.product-cart-in-cart__container-icons {
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+.product-card-in-cart__quantity {
+  margin: 0 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: rgb(131, 131, 131);
+  padding: 0.2rem;
+}
+.product-card-in-cart__add,
+.product-card-in-cart__subtract {
+  border: 1.5px solid rgb(197, 197, 197);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: rgb(131, 131, 131);
+  padding: 0.5px;
+}
+.product-card-in-cart__add:hover,
+.product-card-in-cart__subtract:hover {
+  cursor: pointer;
+}
+.product-card-in-cart__container-delete-icon {
+  text-align: right;
+}
+.product-card-in-cart__container-icon {
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.product-card-in-cart__icon:hover {
+  cursor: pointer;
+}
+/*Responsive web disign*/
+@media (min-width: 620px) {
+  .product-card-in-cart {
+    flex-direction: row;
+  }
+  .product-card-in-cart__container-img {
+    width: 20%;
+  }
+  .product-card-in-cart__details-product {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .product-card-in-cart__name-product {
+    margin: 0 1.5rem;
+  }
+  .product-card-in-cart__container-details-product {
+    display: flex;
+  }
+  .product-card-in-cart__container-price,
+  .product-card-in-cart__container-quantity,
+  .product-card-in-cart__container-total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1.5rem;
+    border: none;
+  }
+  .product-card-in-cart__price-text,
+  .product-card-in-cart__quantity-text,
+  .product-card-in-cart__total-text {
+    margin-bottom: 0.5rem;
+  }
+  .product-card-in-cart__container-delete-icon {
+    display: flex;
+    align-items: center;
+  }
+}
